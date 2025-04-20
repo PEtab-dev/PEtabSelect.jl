@@ -1,0 +1,25 @@
+name = "PEtabSelect"
+uuid = "6de2f99a-1d3e-11f0-2fac-936eab9aa55b"
+version = "0.1.0"
+
+[deps]
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+
+[compat]
+Aqua = "0.8"
+CondaPkg = "0.2"
+PythonCall = "0.9"
+SafeTestsets = "0.1"
+Test = "1"
+YAML = "0.4"
+julia = "1.10"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+[targets]
+test = ["Aqua", "SafeTestsets", "Test", "YAML"]
